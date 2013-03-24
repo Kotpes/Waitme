@@ -4,7 +4,9 @@ h1, p {
 
 h1 {
     font-size: 2.2em;
-    margin: 3px;
+    margin-left: 5px;
+    margin-top: -10px;
+    position: absolute;
 }
 
 #wrapper {
@@ -19,7 +21,7 @@ h1 {
     float: left;
     width: 600px;
     height: 764px;
-    background-color: #c2c2c2;
+    background-color: #f1f1f1;
     box-shadow: inset 0 0 8px rgba(68, 68, 68, 0.5);
 }
 
@@ -37,8 +39,10 @@ h1 {
     margin: 10px 5px;
     width: 590px;
     height: 170px;
-    background-color: #f3f3f3;
+    background-color: #f1f1f1;
     overflow-x: auto;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.45);
+
 }
 
 .items {
@@ -71,6 +75,3 @@ p {
     line-height: 0.9em;
 }
 
- h1 {
-    position: absolute;
-}
